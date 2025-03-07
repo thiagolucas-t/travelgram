@@ -1,0 +1,32 @@
+
+
+/* NAVEGAÇÃO */
+
+nav {
+
+display: flex;
+/* Padding apenas em cima e em baixo */
+padding: 20px 32px;
+line-height: 0;
+align-items: center;
+justify-content: space-between;
+font-family: var(--font-family);
+font: 14px/170% var(--font-family)
+}
+
+nav ul{
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-block: 8px;
+  gap: 24px;
+}
+
+nav ul li:last-child img{
+
+  width: 40px;
+  height: 40px;
+  /* Torna a caixa do tamanho da imagem */
+  object-fit: cover;
+}
